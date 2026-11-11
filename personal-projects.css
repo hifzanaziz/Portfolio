@@ -1,0 +1,24 @@
+/* Visual-first personal project showcase */
+.project-showcase{background:radial-gradient(ellipse at 90% 0%,#103c4a 0,transparent 52%),var(--bg)}
+.showcase-intro{max-width:800px}.showcase-intro .lead{margin-bottom:12px}
+.project-overview{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin:30px 0}
+.project-overview a{display:block;border:1px solid #3b7274;border-radius:18px;background:linear-gradient(145deg,#153b4b,#10263a);padding:22px;transition:transform .2s,border-color .2s}
+.project-overview a:hover,.project-overview a:focus-visible{transform:translateY(-3px);border-color:var(--accent)}
+.project-overview strong{display:block;font-size:22px;line-height:1.25;margin:9px 0}.project-overview span{color:var(--muted);font-size:14px}
+.project-overview .project-index{color:var(--accent);font-size:12px;font-weight:800;letter-spacing:.1em}
+.project-hero-shot{margin:28px 0 16px;overflow:hidden;border-radius:17px;border:1px solid #34566a;background:#e9eef8}
+.project-hero-shot img{display:block;width:100%;height:auto;max-height:520px;object-fit:contain}
+.project-mini-flow{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:20px 0 4px}
+.project-mini-flow span{border:1px solid #356676;border-radius:10px;background:#153648;padding:10px 14px;font-size:13px;font-weight:650}
+.project-mini-flow b{color:var(--accent)}
+.smart-kitchen{margin-top:70px;padding-top:55px;border-top:1px solid #2c5060}
+.smart-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin:25px 0}
+.smart-card{border:1px solid #36566a;border-radius:15px;padding:20px;background:#122d40}
+.smart-card .smart-icon{font-size:29px}.smart-card h4{margin:10px 0 7px;font-size:18px}.smart-card p{font-size:14px;margin:0}
+.smart-diagram{border:1px solid #33666b;border-radius:18px;background:linear-gradient(140deg,#0e3040,#0b1e2e);padding:24px;margin:26px 0}
+.smart-diagram .project-mini-flow{margin-bottom:14px}
+.smart-diagram p{font-size:13px;margin:0}
+.smart-gallery-placeholder{border:1px dashed #54828d;border-radius:15px;background:#102b3b;padding:25px;text-align:center}
+.smart-gallery-placeholder strong{display:block;font-size:17px;margin-bottom:7px}.smart-gallery-placeholder p{margin:0;font-size:14px}
+.smart-note{font-size:13px;margin-top:14px}
+@media(max-width:750px){.project-overview,.smart-grid{grid-template-columns:1fr}.smart-kitchen{margin-top:50px;padding-top:40px}.project-mini-flow{gap:7px}.project-mini-flow span{padding:8px 10px;font-size:12px}}
